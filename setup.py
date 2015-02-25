@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+from setuptools import setup
+
 setup(
     name='commonUtils',
     version='0.0.1',
@@ -13,14 +17,16 @@ setup(
         'Topic :: Software Development',
         'Programming Language :: Python :: 2.7'
     ],
+    install_requires=[
+        'requests==1.2.3',
+        'nose==1.3.4'
+    ],
     py_modules=[
         'commonUtils.time_utils',
         'commonUtils.parsing_utils'
-        ],
+    ],
     packages=[
-        'commonutils',
-        'commonutils.mocks',
-        'commonutils.templates',
-        'commonutils.pageobjects'
-        ],
+        'commonUtils',
+        'commonUtils.templates',
+    ],
 )

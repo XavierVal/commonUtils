@@ -8,7 +8,7 @@ class TimeUtils(object):
         current_time = ''
 
     def time_now(self):
-        print datetime.now().time()
+        print "Current Time is: {}".format(datetime.now().time())
         return datetime.now().time()
 
 

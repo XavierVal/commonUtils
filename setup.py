@@ -23,7 +23,7 @@ setup(
     ],
     py_modules=[
         'commonUtils.time_utils',
-        'commonUtils.parsing_utils'
+        #'commonUtils.parsing_utils'
     ],
     packages=[
         'commonUtils',
